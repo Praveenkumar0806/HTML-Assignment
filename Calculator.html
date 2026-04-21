@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style >
+    body
+    {
+    background-color:lavender;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    }
+    input
+    {
+    width:300px;
+    padding:12px;
+    border:1px solid black;
+    border-radius:8px;
+    font-size:16px;
+    }
+    
+    button
+    {
+    width:60px;
+    height:45px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:25px;
+    border:1px solid black;
+    background-color:coral pink;
+    }
+    h1
+    {
+    font-style:italic;
+    font-size:40px;
+    color:royalblue;
+    }
+    p
+    {
+      font-size:32px;
+      font-weight:bold;
+      color:blue;
+      background-color:pink;
+    }
+    .container
+    {
+      text-align:center;
+      background-color:lightblue;
+      padding:60px;
+      border-radius:15px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.1);
+      width:500px;
+    }
+    </style>
+</head>
+
+<body>
+<div class = "container">
+<form>
+<h1> CALCULATOR</h1>
+    <input type="number" id="n1" placeholder="Enter a value1"/></br></br>
+    <input type="number" id="n2" placeholder="Enter a value2"/></br></br>
+    <button type="button" onclick="Add()"> + </button>
+    <button type="button" onclick="Sub()"> - </button>
+    <button type="button" onclick="Multi()"> * </button>
+    <button  type="button" onclick="Div()"> / </button>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="multi"></p>
+    <p id="div"></p>
+    
+</form>
+</div>
+<script>
+    function Add()
+    {
+    let v1 = Number(document.getElementById("n1").value);
+    let v2 = Number(document.getElementById("n2").value);
+   let Result1 = v1 + v2;
+   document.getElementById("add").innerText="Addition of "+v1+" and "+v2+" is : "+Result1;
+    }
+    function Sub()
+    {
+    let v1 = Number(document.getElementById("n1").value);
+    let v2 = Number(document.getElementById("n2").value);
+   let Result1 = v1 - v2;
+   document.getElementById("add").innerText="Subraction of "+v1+" and "+v2+" is : "+Result1;
+    }
+    function Multi()
+    {
+    let v1 = Number(document.getElementById("n1").value);
+    let v2 = Number(document.getElementById("n2").value);
+   let Result1 = v1 * v2;
+   document.getElementById("add").innerText="Multiplication of "+v1+" and "+v2+" is : "+Result1;
+    }
+    function Div()
+    {
+    let v1 = Number(document.getElementById("n1").value);
+    let v2 = Number(document.getElementById("n2").value);
+   let Result1 = v1 / v2;
+   document.getElementById("add").innerText="Division of "+v1+" and "+v2+" is : "+Result1;
+    }
+</script>
+</body>
+</html>
