@@ -1,0 +1,55 @@
+body{
+    background-color:rgb(248, 228, 203);
+     display:flex;
+    justify-content:center;
+    align-items:center;
+   height: 100vh;
+}
+.tag2{
+    background-color: rgb(1, 1, 15);
+    height: 600px;
+    width: 550px;
+    border-radius: 10px;
+}
+.tag3{
+    color: rgb(248, 228, 203);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tag4 textarea{
+    height: 300px;
+    width: 400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:70px;
+    border-radius: 5px;
+}
+.size{
+    font-size: 20px;
+}
+.tag5 {
+    width:250px;
+    height:50px;
+    margin-left:160px;
+    border:none;
+    border-radius:5px;
+    background-color: rgb(248, 228, 203);
+    font-size:20px;
+    cursor:pointer;
+    margin-top: 15px;
+}
+.tag5:hover{
+    background-color: rgb(243, 108, 108);
+}
+.tag6{
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+    color:rgb(248, 228, 203) ;
+    font-size: 35px;
+    
+}
+

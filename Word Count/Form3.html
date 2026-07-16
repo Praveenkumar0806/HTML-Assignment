@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form3</title>
+    <link rel="stylesheet" href="Form3.css">
+</head>
+<body class="tag1">
+    <div class="tag2">
+        <div class="tag3">
+            <p>Type a sentence</p>
+        </div>
+        <div class="tag4">
+            <textarea class="size" id="wordcount"></textarea>
+        </div>
+        <div>
+            <input type="button"  class="tag5" onclick="method()"  value="Calculate words">
+        </div>
+        <div class="tag6">
+
+        </div>
+    </div>
+    <script>
+        function method(){
+           let text = document.getElementById('wordcount').value;
+           let count = text.split(" ").length;
+           document.querySelector(".tag6").innerHTML ="Words-Count : "+count;
+        }
+    </script>
+</body>
+</html>
