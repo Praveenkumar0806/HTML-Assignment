@@ -1,0 +1,18 @@
+.tag1{
+    background-color: rgb(55, 118, 118);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.tag2{
+    background-color: rgb(218, 252, 218);
+    height: 600px;
+    width: 500px;
+   border-radius: 10px;
+}
+.tag3{
+    text-align: center;
+    font-size: 35px;
+}
