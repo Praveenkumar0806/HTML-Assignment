@@ -1,0 +1,54 @@
+.tag1{
+    background-color:rgb(204, 219, 249);
+}
+.tag2{
+    background-color: rgb(2, 2, 127);
+    height: 550px;
+    width: 750px;
+    margin-top:95px;
+    margin-left: 405px;
+    border-radius: 3px;
+}
+.tag3 p{
+    color: whitesmoke;
+    font-size:40px;
+    padding-top: 15px;
+    padding-left: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.tag4 input{
+    margin-left: 40px;
+    width: 650px;
+    height: 55px;
+    margin-right: 40px;
+    font-size: 23px;
+}
+.tag5 input{
+    margin-top: 35px;
+    margin-left: 40px;
+    width: 650px;
+    height: 55px;
+    margin-right: 40px;
+    font-size: 23px;
+}
+.tag6 input{
+    margin-top: 35px;
+ margin-left: 40px;
+    width: 650px;
+    height: 55px;
+    margin-right: 40px;
+    font-size: 23px;
+}
+.tag7 input{
+    margin-top: 40px;
+    height: 60px;
+    width: 650px;
+    margin-left: 40px;
+    font-size: xx-large;
+    background-color: gold;
+    border-radius: 9px;
+}
+
+.tag7 input:hover{
+    background-color: rgb(117, 117, 6);
+}
