@@ -1,0 +1,51 @@
+.tag1{
+    background-color: rgb(55, 118, 118);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.tag2{
+    background-color: rgb(218, 252, 218);
+    height: 600px;
+    width: 500px;
+   border-radius: 10px;
+}
+.tag3{
+    text-align: center;
+    font-size: 68px;
+}
+.tag4{
+    display: flex;
+    justify-content: center;
+}
+.tag4 input{
+      width: 400px;
+    height: 40px;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.tag5{
+   display: flex;
+   justify-content: center;
+}
+.tag5 button{
+    margin-top: 50px;
+    width: 300px;
+    height: 90px;
+    padding: 10px;
+    font-size: 42px;
+    border-radius: 55px;
+    background-color: aqua;
+}
+.tag5 button:hover{
+    background-color: rgb(1, 51, 51)
+}
+#answer{
+    color: rgb(6, 27, 27);
+    text-align: center;
+    margin-top: 45px;
+    font-size: 35px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDCalculate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tag1">
+    <div class="tag2">
+        <div class="tag3">
+            <p>Discount</p>
+        </div>
+        <div class="tag4">
+            <input id="value" type="text" placeholder="Enter your Purchase Amount">
+        </div>
+        <div class="tag5">
+            <button  type="button" onclick="method()">Calculate</button>
+        </div>
+        <div id="answer">
+
+        </div>
+    </div>
+    <script>
+       function method() {
+    let value = Number(document.getElementById("value").value);
+    let discount = 0;
+
+    if (value >= 0 && value <= 100) discount = 10;
+    else if (value <= 200) discount = 20;
+    else if (value <= 300) discount = 30;
+    else if (value <= 400) discount = 40;
+    else if (value <= 500) discount = 50;
+    else if (value <= 600) discount = 60;
+    else if (value <= 700) discount = 70;
+    else if (value <= 800) discount = 80;
+    else if (value <= 900) discount = 85;
+    else discount = 90;
+
+    let result = document.getElementById("answer");
+    result.innerHTML = "Your Discount: " + discount + "%";
+}
+        </script>
+
+</body>
+</html>
