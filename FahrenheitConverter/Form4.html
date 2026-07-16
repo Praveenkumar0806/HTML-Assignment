@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="Form4.css">
+</head>
+<body class="tag1">
+    <div class="tag2">
+        <div class="tag3">
+            <p>Celsius to Fahrenheit</p>
+        </div>
+        <div class="tag4">
+            <label>Enter the Celsius</label>
+        </div>
+        <div class="tag5">
+            <input type="text" id="values" placeholder="Celsius">
+        </div>
+        <div class="tag6">
+           <button type="submit" onclick="convert()">Convert to Fahrenheit</button>
+        </div>
+        <div id="result" class="tag7">
+            
+        </div>
+    </div>
+    <script >
+        function convert(){
+        let Cmvalue = Number(document.getElementById('values').value)
+        let Invalue = ( Cmvalue * 9/5) + 32 
+        let result = document.getElementById('result')
+        result.innerHTML = Invalue.toFixed(1)
+        }
+    </script>
+</body>
+</html>

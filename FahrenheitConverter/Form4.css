@@ -1,0 +1,55 @@
+.tag1{
+    background-color: rgb(250, 223, 189);
+    width: 300px;
+    height: 100px;
+}
+.tag2{
+    background-color: rgba(0, 0, 0, 0.579);
+    width: 500px;
+    height: 590px;
+    margin-left: 540px;
+    margin-top: 75px;
+    border-radius: 15px;
+}
+.tag3{
+    color:rgb(249, 203, 147);
+    text-align: center;
+    padding-top: 5px;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.tag4{
+    margin-left: 55px;
+    font-size: 31px;
+    color:whitesmoke;
+}
+.tag5{
+    padding-top: 25px;
+    margin-left: 50px;
+}
+.tag5 input{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.tag6{
+    padding-top: 45px;
+    margin-left: 50px;
+}
+.tag6 button{
+     width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 35px;
+    background-color: rgb(119, 244, 119);
+}
+.tag6 button:hover{
+    background-color:rgb(1, 208, 1)
+}
+.tag7{
+    padding-top: 50px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
